@@ -16,33 +16,36 @@ body {
 header {
 	width: 100%;
 	height: 8%;
-	background-color: #41e8ce;
-	border-bottom: 1px solid #41e8ce;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #daeafb;
+	background-image: url("../images/headbackground.jpg");
+	background-repeat: no-repeat; align-self: center;
+	background-size: cover;
 }
 .logo {
-	color: #fff;
+	color: #3687b3;
 	font-weight: bold;
 	margin-left: auto;
-	letter-spacing: 2px;
+	letter-spacing: normal;
 	margin-right: auto;
 	text-align: center;
-	padding-top: 15px;
-	line-height: 2em;
-	font-size: 32px;
+	padding-top: 20px;
+	line-height: 1em;
+	font-size: 40px;
 }
 .logo2 {
-	color: #fff;
-	font-weight: bold;
+	color: #3687b3;
+	font-weight: bolder;
 	margin-left: auto;
-	letter-spacing: 6px;
+	letter-spacing: 8px;
 	margin-right: auto;
 	text-align: center;
 	padding-top: 0px;
-	line-height: 1em;
-	font-size: 32px;
+	line-height: 2em;
+	font-size: 40px;
 }
 .hero_header {
-	color: #FFFFFF;
+	color: #3687b3;
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
@@ -109,11 +112,11 @@ header {
 	float: left;
 }
 .intro .column h3 {
-	color: #FFFFFF;
+	color: #1363AB;
 	text-align: center;
 }
 .intro .column p {
-	color: #FFFFFF;
+	color: #1363AB;
 }
 .cards {
 	width: auto;
@@ -176,7 +179,7 @@ footer {
 }
 .intro {
 	display: inline-block;
-	background-color: #73C0EE;
+	background-color: #daeafb;
 }
 .profile {
 	width: 50%;
