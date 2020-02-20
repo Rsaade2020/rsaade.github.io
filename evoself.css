@@ -1,0 +1,261 @@
+                    * {
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        font-family: "raleway";
+                        padding: 30px;
+                    }
+                    /* format layout for top navigation section */
+                    
+                    .topnavigation {
+                        overflow: hidden;
+                        background-color: #eaf4f7;
+                        padding-right: 10px;
+                    }
+                    
+                    .topnavigation a {
+                        float: right;
+                        /* display: block; */
+                        color: #000000;
+                        padding: 10px 10px;
+                        font-family: raleway;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        transition: background-color .8s;
+                        margin-bottom: 15px;
+                        text-decoration: none;
+                    }
+                    
+                    .topnavigation a.active {
+                        background-color: #ff4641;
+                        color: white;
+                    }
+                    
+                    .topnavigation a:hover {
+                        background-color: #ddd;
+                    }
+                    /* format layout for header section */
+                    
+                    .header {
+                        background-color: #eaf4f7;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-align: left;
+                        font-size: 3rem;
+                        color: #ff4641;
+                        font-weight: bolder;
+                        line-height: 0px;
+                        margin-bottom: -40px;
+                        margin-top: 20px;
+                        padding-left: 10px;
+                    }
+                    
+                    .p1header {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        font-size: 3rem;
+                        background-color: #eaf4f7;
+                        text-align: center;
+                        font-weight: bolder;
+                        line-height: 0px;
+                    }
+                    
+                    .p2header {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        font-size: 1.5rem;
+                        background-color: #eaf4f7;
+                        text-align: center;
+                        font-weight: normal;
+                    }
+                    
+                    .buttonheader {
+                        background-color: #eaf4f7;
+                        text-align: center;
+                        padding-bottom: 10px;
+                    }
+                    
+                    .button {
+                        background-color: #ff4641;
+                        border: none;
+                        color: white;
+                        padding: 16px 32px;
+                        text-align: center;
+                        font-size: 16px;
+                        margin: 4px 2px;
+                        opacity: 0.6;
+                        transition: 0.3s;
+                        display: inline-block;
+                        text-decoration: none;
+                        cursor: pointer;
+                        border-radius: 10px;
+                    }
+                    
+                    .button:hover {
+                        opacity: 1
+                    }
+                    /* Start section on data in database*/
+                    
+                    .header2 {
+                        padding-top: 20px;
+                        padding-bottom: 10px;
+                        opacity: 70%;
+                        color: black;
+                        font-size: 2rem;
+                    }
+                    
+                    .flexcontainerlabels {
+                        display: flex;
+                        height: 50px;
+                        align-items: center;
+                        background-color: white;
+                        border-top-style: solid;
+                        border-top-color: grey;
+                        border-top-width: 1px;
+                        padding-bottom: 30px;
+                    }
+                    
+                    .flexcontainerlabels>div {
+                        background-color: white;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 12px;
+                    }
+                    
+                    .flexcontainernumbers {
+                        display: flex;
+                        height: 5px;
+                        align-items: center;
+                        background-color: white;
+                        border-bottom-style: solid;
+                        border-bottom-color: grey;
+                        border-bottom-width: 1px;
+                        padding-bottom: 30px;
+                    }
+                    
+                    .flexcontainernumbers>div {
+                        background-color: white;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 40px;
+                    }
+                    /* end section on data in database */
+                    
+                    .section {
+                        float: left;
+                        padding: 10px;
+                        font-family: "raleway";
+                    }
+                    
+                    .section.left {
+                        width: 33%;
+                        background: rgb(245, 245, 245);
+                        margin-right: 5px;
+                    }
+                    
+                    .section.left h2 {
+                        font-size: 1rem;
+                    }
+                    
+                    .section.left h6 {
+                        margin-bottom: 0px;
+                    }
+                    
+                    .section.left p {
+                        margin-top: 0px;
+                        font-size: 0.8rem;
+                        text-align: left;
+                    }
+                    
+                    .section.middle {
+                        width: 33%;
+                        background: rgb(245, 245, 245);
+                        margin-right: 5px;
+                    }
+                    
+                    .section.middle h2 {
+                        font-size: 1rem;
+                    }
+                    
+                    .section.middle h6 {
+                        margin-bottom: 0px;
+                    }
+                    
+                    .section.middle p {
+                        margin-top: 0px;
+                        font-size: 0.8rem;
+                        text-align: left;
+                    }
+                    
+                    .section.right {
+                        width: 33%;
+                        background: rgb(245, 245, 245);
+                    }
+                    
+                    .section.right h2 {
+                        font-size: 1rem;
+                    }
+                    
+                    .section.right h6 {
+                        margin-bottom: 0px;
+                    }
+                    
+                    .section.right p {
+                        margin-top: 0px;
+                        font-size: 0.8rem;
+                        text-align: left;
+                    }
+                    
+                    .column:after {
+                        content: "";
+                        display: table;
+                        clear: both;
+                    }
+                    
+                    .footer {
+                        display: flex;
+                        font-family: "raleway";
+                        font-size: 12px;
+                        text-align: left;
+                        background-color: #eaf4f7;
+                        padding: 10px;
+                    }
+                    
+                    .column {
+                        flex: 1;
+                        padding: 10px;
+                        font-weight: normal;
+                    }
+                    
+                    .column h4 {
+                        text-align: center;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        color: #ff4541
+                    }
+                    
+                    .column a {
+                        text-decoration: none;
+                        list-style: none;
+                    }
+                    
+                    .column ul {
+                        text-decoration: none;
+                        text-align: center;
+                        padding: 0px;
+                    }
+                    
+                    .column a:hover {
+                        color: #ff4641;
+                    }
+                    /* Responsive section to make the columns stack
+after each other with smaller devices or resiing image */
+                    
+                    @media screen and (max-width: 900px) {
+                        .section.left,
+                        .section.middle,
+                        .section.right {
+                            width: 50%;
+                        }
+                    }
