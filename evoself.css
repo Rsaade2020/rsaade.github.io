@@ -1,5 +1,9 @@
-                    * {
+                    /* * {
                         box-sizing: border-box;
+                    } */
+                    
+                    html {
+                        scroll-behavior: smooth;
                     }
                     
                     body {
@@ -8,32 +12,47 @@
                     }
                     /* format layout for top navigation section */
                     
-                    .topnavigation {
+                    #navbar {
+                        width: 100%;
                         overflow: hidden;
                         background-color: #eaf4f7;
-                        padding-right: 10px;
+                        padding-right: 0px;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        margin-top: 0.1%;
                     }
                     
-                    .topnavigation a {
+                    #navbar a {
                         float: right;
-                        /* display: block; */
+                        display: block;
                         color: #000000;
                         padding: 10px 10px;
                         font-family: raleway;
-                        font-size: 1rem;
+                        font-size: 16px;
                         font-weight: bold;
-                        transition: background-color .8s;
+                        transition: background-color .5s;
                         margin-bottom: 15px;
                         text-decoration: none;
+                        margin-right: 10px;
                     }
                     
-                    .topnavigation a.active {
+                    #navbar a.active {
                         background-color: #ff4641;
                         color: white;
                     }
                     
-                    .topnavigation a:hover {
+                    #navbar a:hover {
                         background-color: #ddd;
+                    }
+                    
+                    .sticky {
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                    }
+                    
+                    .sticky+.body {
+                        padding-top: 10px;
                     }
                     /* format layout for header section */
                     
@@ -144,12 +163,12 @@
                     
                     .section {
                         float: left;
-                        padding: 10px;
+                        padding: 5px;
                         font-family: "raleway";
                     }
                     
                     .section.left {
-                        width: 33%;
+                        width: 32%;
                         background: rgb(245, 245, 245);
                         margin-right: 5px;
                     }
@@ -169,7 +188,7 @@
                     }
                     
                     .section.middle {
-                        width: 33%;
+                        width: 32%;
                         background: rgb(245, 245, 245);
                         margin-right: 5px;
                     }
@@ -189,7 +208,7 @@
                     }
                     
                     .section.right {
-                        width: 33%;
+                        width: 32%;
                         background: rgb(245, 245, 245);
                     }
                     
