@@ -1,10 +1,5 @@
-$(document).ready(function() {
-
-}
-
-
 window.onscroll = function() {
-    myfunction()
+    myFunction()
 };
 
 var navbar = document.getElementById("navbar");
@@ -17,5 +12,3 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
-
-});
