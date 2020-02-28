@@ -18,7 +18,6 @@
         <div id="navbar">
             <a class="active" href="javascript:void(0)"><i class="fa fa-registered"></i> Register for Free</a>
             <a href="javascript:void(0)"><i class="fas fa-sign-in-alt"></i> Sign In</a>
-            <a href="javascript:void(0)"><i class="fas fa-user-plus"></i> Sign up</a>
             <a href="javascript:void(0)"><i class="fas fa-question-circle"></i> About</a>
         </div>
 
@@ -35,6 +34,41 @@
                 <button class="button"> See how it works</button>
             </div>
 
+            <!-- start slideshow autoplay -->
+
+            <div class="slideshow-container">
+
+
+                <div class="myslides">
+                    <q>The eyes are more exact witnesses than the ears.</q>
+                    <p class="author">Heraclitus</p>
+                </div>
+
+                <div class="myslides">
+                    <q>No man ever steps in the river twice, for it is not the same river and he is not the same man.</q>
+                    <p class="author">Heraclitus</p>
+                </div>
+
+                <div class="myslides">
+                    <q>Good character is not formed in a week or a month. It is created little by little, day by day. Protracted and patient effort is needed to develop good character.</q>
+                    <p class="author">Heraclitus</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
+            <script type="text/javascript" src="./slideshow.js"></script>
+
+            <!-- start database section -->
             <div class="header2">Database</div>
 
             <div class="flexcontainerlabels">
@@ -119,7 +153,7 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
 
 </body>
 
