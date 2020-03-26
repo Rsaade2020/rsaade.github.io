@@ -1,0 +1,174 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+.navbar-brand {
+    font-size: 2rem;
+    /* padding-bottom: 1rem;
+    padding-right: 1rem; */
+    font-family: Raleway;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.nav-link {
+    font-size: 0.8rem;
+}
+
+body {
+    padding-top: 3.5rem;
+}
+
+.nav-item {
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: Bold;
+}
+
+.nav-item a:hover {
+    color: #ff4641;
+}
+
+.dropdown-item {
+    font-size: 0.7rem;
+    font-weight: Medium;
+}
+
+.form-control,
+.btn {
+    font-size: 0.7rem;
+}
+
+.jumbotron {
+    font-family: Raleway;
+    background-color: #eaf4f7;
+    text-align: center;
+}
+
+.containerjt {
+    padding-bottom: 1rem;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    height: 7rem;
+    font-style: italic;
+    background-color: #eaf4f7;
+}
+
+.carousel-caption {
+    color: grey;
+    font-style: Raleway;
+    font-weight: Regular;
+    top: 5%;
+}
+
+.header2 {
+    /* padding-top: 20px; */
+    padding-bottom: 10px;
+    opacity: 70%;
+    color: black;
+    font-size: 2rem;
+    margin-left: 20px;
+    font-family: Raleway;
+}
+
+.flexcontainerlabels {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: white;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 1px;
+    padding-bottom: 30px;
+    font-family: Raleway;
+    /* width: 99%; */
+}
+
+.flexcontainerlabels>div {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: Raleway;
+    /* width: 99%; */
+}
+
+.flexcontainernumbers {
+    display: flex;
+    height: 5px;
+    align-items: center;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    padding-bottom: 30px;
+    font-family: Raleway;
+    /* width: 99%; */
+}
+
+.flexcontainernumbers>div {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: grey;
+    /* width: 99%; */
+}
+
+.container-fluid {
+    padding-top: 1.5rem;
+}
+
+.container-fluid h5 {
+    font-family: Raleway;
+    padding-top: 1rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: medium;
+}
+
+.container-fluid h6 {
+    font-family: Raleway;
+    padding-top: 1rem;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: medium;
+    margin-bottom: 0px;
+}
+
+.container-fluid p {
+    padding-top: 0.5rem;
+    opacity: 70%;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.footer {
+    background-color: #eaf4f7;
+    font-family: Raleway;
+}
+
+.footer h5 {
+    font-family: Raleway;
+    font-size: 0.7rem;
+    color: #ff4541;
+    text-align: center;
+}
+
+.footer ul,
+a {
+    font-size: 0.6rem;
+    color: grey;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* end section on data in database */
